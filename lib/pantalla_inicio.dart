@@ -19,7 +19,7 @@ class StartState extends State<Pantalla_Inicio> {
   }
 
   startTime() async {
-    var duration = Duration(seconds: 8);
+    var duration = Duration(seconds: 2);
     //duration es para determinar el tiempo que demora en cargar la pantalla
     //route nos sirve para redireccionar despues del tiempo estipulado
     return new Timer(duration, route);
@@ -43,16 +43,16 @@ class StartState extends State<Pantalla_Inicio> {
         children: [
           Container(
             decoration: BoxDecoration(
-                color: Color.fromARGB(255, 16, 79, 197),
+                color: Color.fromARGB(255, 206, 90, 49),
                 gradient: LinearGradient(colors: [
-                  (Color.fromARGB(255, 35, 87, 209)),
-                  Color.fromARGB(255, 23, 44, 161)
+                  (Color.fromARGB(255, 206, 90, 49)),
+                  Color.fromARGB(255, 206, 90, 49)
                 ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
                 ////
                 margin: EdgeInsets.only(right: 0, top: 0),
                 alignment: Alignment.bottomCenter,
                 child: Text(
-                  "Bienvenido Usuario",
+                  "Login",
                   style: TextStyle(fontSize: 20, color: Colors.white),
                 ),
                 ///

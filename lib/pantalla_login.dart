@@ -22,11 +22,11 @@ class StartState extends State<PantallaLogin> {
           height: 300,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
-            color: Color.fromARGB(255, 39, 140, 216),
+            color: Color.fromARGB(255, 216, 80, 39),
             gradient: LinearGradient(
               colors: [
-                (Color.fromARGB(255, 39, 140, 216)),
-                Color.fromARGB(255, 39, 140, 216)
+                (Color.fromARGB(255, 216, 80, 39)),
+                Color.fromARGB(255, 216, 80, 39)
               ],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
@@ -72,11 +72,11 @@ class StartState extends State<PantallaLogin> {
             ],
           ),
           child: TextField(
-            cursorColor: Color.fromARGB(255, 35, 113, 191),
+            cursorColor: Color.fromARGB(255, 206, 90, 49),
             decoration: InputDecoration(
               icon: Icon(
                 Icons.email,
-                color: Color.fromARGB(255, 51, 125, 221),
+                color: Color.fromARGB(255, 206, 90, 49),
               ),
               hintText: "Enter Email",
               enabledBorder: InputBorder.none,
@@ -100,12 +100,12 @@ class StartState extends State<PantallaLogin> {
             ],
           ),
           child: TextField(
-            cursorColor: Color.fromARGB(255, 38, 110, 210),
+            cursorColor: Color.fromARGB(255, 206, 90, 49),
             decoration: InputDecoration(
-              focusColor: Color.fromARGB(255, 56, 118, 184),
+              focusColor: Color.fromARGB(255, 206, 90, 49),
               icon: Icon(
                 Icons.vpn_key,
-                color: Color.fromARGB(255, 34, 120, 240),
+                color: Color.fromARGB(255, 206, 90, 49),
               ),
               hintText: "Enter Password",
               enabledBorder: InputBorder.none,
@@ -134,8 +134,8 @@ class StartState extends State<PantallaLogin> {
           height: 54,
           decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-              (Color.fromARGB(255, 31, 135, 191)),
-              Color.fromARGB(255, 30, 116, 191)
+              (Color.fromARGB(255, 206, 90, 49)),
+              Color.fromARGB(255, 206, 90, 49)
             ], begin: Alignment.centerLeft, end: Alignment.centerRight),
             borderRadius: BorderRadius.circular(50),
             color: Colors.grey[200],
@@ -169,7 +169,7 @@ class StartState extends State<PantallaLogin> {
               GestureDetector(
                 child: Text(
                   "Registrarse Ahora",
-                  style: TextStyle(color: Color.fromARGB(255, 42, 143, 210)),
+                  style: TextStyle(color: Color.fromARGB(255, 206, 90, 49)),
                 ),
                 onTap: () {
                   // Write Tap Code Here.
